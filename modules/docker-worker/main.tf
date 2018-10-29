@@ -135,6 +135,12 @@ EOF
 
   provisioner "remote-exec" {
     inline = [
+      "apt-get install -y qemu-kvm libvirt-bin bridge-utils",
+    ]
+  }
+
+  provisioner "remote-exec" {
+    inline = [
       "start docker-worker",
     ]
   }
