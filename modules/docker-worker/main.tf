@@ -45,9 +45,9 @@ EOF
     inline = [
       "sudo apt-get update",
       "sudo apt-get install -y git rng-tools",
-      "git clone -b packet-net git://github.com/servo/docker-worker /tmp/docker-worker",
+      "git clone -b servo-packet-net git://github.com/servo/docker-worker /tmp/docker-worker",
       "cd /tmp/docker-worker",
-      "git checkout 4ae50b643b83c52a7cb6da65e8645fc76b4e7179",
+      "git checkout 83244dc2b584057f7c69fef2121fae7c497e63b8",
     ]
   }
 
